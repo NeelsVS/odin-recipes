@@ -1,15 +1,47 @@
-#rn { 
-    text-align: center;
-    font-weight:900 ;
-    color: rgb(255, 191, 0);
-    background-color: rgb(0, 0, 0);
+body{
+    background-color: #36454F;
+
 }
 
+/*Main heading*/
+.heading { 
+    box-sizing: border-box;
+    margin: 12px 470px;
+    padding: 5pxpx;
+    border: solid black;
+    text-align: center;
+    font-weight:900 ;
+    color: #EEDF7A;
+    background-color: #A04747;
+}
+
+/*Image*/
+img {
+    box-sizing: border-box;
+    margin: 10px 470px; 
+    border: groove black;
+
+}
+
+p {
+    box-sizing: border-box;
+    padding: 25px 25px;
+    border:  solid black;
+    margin: 10px 40px;
+    background-color: #D8A25E;
+    
+}
 .description
 {
+    box-sizing: border-box;
+    border: solid black;
+    margin: 10px 550px;
+    background-color: #D8A25E;
     text-align: center;
     font-size: 30PX;
 }
+
+
 
 .ingredients {
     font-size: 30PX;
